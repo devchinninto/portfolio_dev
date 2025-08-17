@@ -48,6 +48,7 @@
 .project-card img {
   min-width: 306px;
   min-height: 156px;
+  object-fit: cover;
   border-radius: 8px;
 }
 
