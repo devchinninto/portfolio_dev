@@ -67,9 +67,12 @@ h1 {
   padding-left: 8px;
 }
 
-@media (max-width: 768px) {
-  .header
-  .main
-  .service
-  .footer
+  @media (min-width: 1366px) {
+  .container {
+    min-width: 1366px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 120px 144px 120px;
+  }
 }

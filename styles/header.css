@@ -2,7 +2,6 @@ header {
   background: url(../assets/images/Background_Intro.png) no-repeat center center;
   background-size: cover;
 
-  /* border: 3px solid red; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -14,7 +13,6 @@ header {
 }
 
 .info {
-  /* border: 3px solid white; */
   max-width: 1040px;
 
   display: flex;
@@ -30,8 +28,6 @@ header {
 }
 
 .avatar img {
-  /* border: 3px solid blue; */
-
   width: 96px;
   aspect-ratio: 1/1;
 
@@ -39,7 +35,6 @@ header {
 }
 
 .bio {
-  /* border: 3px solid yellow; */
   width: 680px;
 
   display: flex;
@@ -50,16 +45,9 @@ header {
 #subtitle {
   font: var(--subtitle);
   color: var(--secondary-text-base-grey-200);
-
-  /* background-image: var(--light-grey-grad);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent; */
 }
 
 #subtitle span {
-  /* color: var(--red); */
-
   background-image: var(--red-blue-grad);
   background-clip: text;
   -webkit-background-clip: text;
@@ -79,7 +67,6 @@ header {
 }
 
 .tags {
-  /* border: 3px solid green; */
   display: flex;
   gap: 16px;
 
