@@ -1,7 +1,7 @@
 #service-container {
   background-color: var(--base-grey-600);
   padding: 88px 120px 120px 120px;
-  min-height: 480px;
+  /* min-height: 480px; */
 }
 
 .services {
@@ -17,5 +17,5 @@
   border: 3px solid var(--base-grey-500);
   border-radius: 12px;
   padding: 20px;
-  width: 100%;
+  max-width: 1366px;
 }
