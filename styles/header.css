@@ -48,10 +48,20 @@ header {
 #subtitle {
   font: var(--subtitle);
   color: var(--secondary-text-base-grey-200);
+
+  /* background-image: var(--light-grey-grad);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; */
 }
 
 #subtitle span {
-  color: var(--red);
+  /* color: var(--red); */
+
+  background-image: var(--red-blue-grad);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 #title {
@@ -62,6 +72,8 @@ header {
 #text {
   font: var(--text-sm);
   color: var(--base-grey-300);
+
+  margin-top: 20px;
 }
 
 .tags {
@@ -70,6 +82,7 @@ header {
   gap: 16px;
 
   margin-top: 60px;
+  margin-bottom: 94px;
 }
 
 .tags p {
@@ -89,4 +102,11 @@ header {
 .tags p img {
   width: 24px;
   height: 24px;
+}
+
+.next {
+  display: flex;
+  align-items: center;
+
+  margin-bottom: 57px;
 }

@@ -26,6 +26,10 @@
   --subtitle: 400 20px/120% var(--font-family-subtitle);
   --text-md: 400 16px/140% var(--font-family-text);
   --text-sm: 400 14px/140% var(--font-family-text);
+
+ --red-blue-grad: linear-gradient(90deg, #E3646E, #3996DB);
+
+ --light-grey-grad: linear-gradient(90deg, #878ea186, var(--secondary-text-base-grey-200))
 }
 
 body {
