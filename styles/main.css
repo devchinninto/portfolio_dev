@@ -14,21 +14,6 @@
   flex-direction: column;
 }
 
-h2 {
-  font: var(--subtitle);
-  color: var(--red);
-  margin-bottom: 8px;
-
-  text-align: center;
-}
-
-h1 {
-  font: var(--title-md);
-  color: var(--primary-text-base-grey-100);
-
-  text-align: center;
-}
-
 #projects {
   /* border: 3px solid green; */
   max-width: 1126px;
@@ -64,22 +49,6 @@ h1 {
   min-height: 156px;
   border-radius: 8px;
 }
-
-.project-card .title {
-  font: var(--title-sm);
-  color: var(--primary-text-base-grey-100);
-
-  margin-top: 20px;
-  margin-bottom: 8px;
-  padding-left: 8px;
-}
-
-.project-card .text {
-  font: var(--text-sm);
-  color: var(--secondary-text-base-grey-200);
-  padding-left: 8px;
-}
-
 
 .gradient-box {
   width: 300px;
