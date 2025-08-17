@@ -52,9 +52,16 @@ h1 {
   text-decoration: none;
 }
 
+.project-card:hover {
+  border: 1.5px solid var(--base-gray-300, #878EA1);
+  transform: translateY(-1px);
+  filter: brightness(0.9);
+  box-shadow: 0 5px 1rem var(--base-grey-300);
+}
+
 .project-card img {
-  width: 306px;
-  height: 156px;
+  min-width: 306px;
+  min-height: 156px;
   border-radius: 8px;
 }
 
