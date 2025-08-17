@@ -1,6 +1,7 @@
 #service-container {
   background-color: var(--base-grey-600);
   padding: 88px 120px 120px 120px;
+  min-width: 1366px;
   /* min-height: 480px; */
 }
 
@@ -17,5 +18,5 @@
   border: 3px solid var(--base-grey-500);
   border-radius: 12px;
   padding: 20px;
-  max-width: 1366px;
+  max-width: 888px;
 }
