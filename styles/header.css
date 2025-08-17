@@ -1,0 +1,19 @@
+header {
+  display: flex;
+
+  background: url(../assets/images/Background_Intro.png) no-repeat center center;
+  background-size: cover;
+  border: 3px solid red;
+}
+
+.info {
+  border: 3px solid green;
+  
+}
+
+.avatar img {
+  width: 96px;
+  aspect-ratio: 1/1;
+
+  justify-content: center;
+}
