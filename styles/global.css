@@ -114,5 +114,9 @@ h1 {
   .text {
     text-align: center;
   }
+
+  #service-box, footer {
+    text-align: left;
+  }
 }
 
