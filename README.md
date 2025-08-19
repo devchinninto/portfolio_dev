@@ -8,7 +8,7 @@ Este projeto é um <strong>portfólio pessoal</strong> criado como um desafio na
 A base do projeto foi construída para demonstrar minha capacidade de criar interfaces responsivas, otimizadas e visualmente atraentes, focando em uma experiência de usuário fluida.
 
 ## ✨ Principais Funcionalidades
-<li><strong>Design Responsivo:</strong> O layout foi projetado para se adaptar a diferentes tamanhos de tela (desktop, tablet e mobile), utilizando @media queries para garantir que a navegação e a visualização sejam fluidas em qualquer dispositivo.</li>
+<li><strong>Design Responsivo:</strong> O layout foi projetado para se adaptar a diferentes tamanhos de tela (desktop, tablet e mobile), utilizando `@media queries` para garantir que a navegação e a visualização sejam fluidas em qualquer dispositivo.</li>
 
 <li><strong>Animações e Interatividade:</strong> Adicionei transições e efeitos de hover para criar uma experiência de usuário mais interativa e profissional, com destaque para a animação sutil nos botões.</li>
 
@@ -17,7 +17,7 @@ A base do projeto foi construída para demonstrar minha capacidade de criar inte
 ## 🛠️ Tecnologias Utilizadas
 <li><strong>HTML5</strong></li>
 <li><strong>CSS3</strong></li>
-<li><strong>@media queries</strong></li>
+
 
 ## 📁 Projeto
 Se você quiser explorar o código e contribuir, pode clonar o repositório para sua máquina local.
