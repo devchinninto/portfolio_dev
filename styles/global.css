@@ -111,11 +111,10 @@ h1 {
   h1,
   h2,
   .title,
-  .text {
+  .text,
+  #service-container {
     text-align: center;
+    align-items: center;
+    justify-content: center;
   }
-
-  #service-container p {
-    text-align: left;
-}
 }
