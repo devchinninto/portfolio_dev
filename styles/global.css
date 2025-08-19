@@ -119,8 +119,12 @@ h1 {
 
   .bio #title,
   .bio #subtitle,
-  #service-container,
-  #contacts {
+  #service-container h2,
+  #service-container h1,
+  #contacts,
+  #contacts h1,
+  #projects h1,
+  #projects h2 {
     text-align: center;
   }
 }
