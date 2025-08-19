@@ -124,7 +124,8 @@ h1 {
   #contacts,
   #contacts h1,
   #projects h1,
-  #projects h2 {
+  #projects h2,
+  .container h1 {
     text-align: center;
     align-items: center;
     justify-content: center;
