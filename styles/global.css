@@ -112,7 +112,9 @@ h1 {
   h2,
   .title,
   .text,
-  #service-container {
+  #service-container,
+  #service-box,
+  #contacts p {
     text-align: center;
     align-items: center;
     justify-content: center;
