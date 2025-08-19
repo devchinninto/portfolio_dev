@@ -113,7 +113,8 @@ h1 {
   .title,
   .text,
   #service-container,
-  #service-box,
+  #service-box .title,
+  #service-box img,
   #contacts p {
     text-align: center;
     align-items: center;
