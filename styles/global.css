@@ -32,6 +32,11 @@
  --light-grey-grad: linear-gradient(90deg, #878ea186, var(--secondary-text-base-grey-200));
 }
 
+header, main, #service-container, #contacts {
+  max-width: 1200px;
+  width: 100vw;
+}
+
 body {
   background-color: var(--base-grey-500);
 }
@@ -66,3 +71,48 @@ h1 {
   color: var(--secondary-text-base-grey-200);
   padding-left: 8px;
 }
+
+@media (max-width: 768px) {
+  :root {
+    --title-lg: bold 48px/120% var(--font-family-title);
+    --title-md: bold 22px/120% var(--font-family-title);
+    --subtitle: 400 18px/120% var(--font-family-subtitle);
+    --text-md: 400 14px/140% var(--font-family-text);
+  }
+
+  .container {
+    padding: 0 20px;
+  }
+
+  #projects,
+  .services,
+  #social-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .project-card,
+  #service-box,
+  .social-button {
+    width: 100%;
+    height: auto; 
+  }
+
+  header,
+  #service-container,
+  #contacts {
+    padding: 40px 20px;
+  }
+
+  .info {
+    padding: 80px 20px 40px 20px;
+  }
+
+  h1,
+  h2,
+  .title,
+  .text {
+    text-align: center;
+  }
+}
+

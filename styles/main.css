@@ -1,20 +1,28 @@
 .container {
-  min-width: 1366px;
+  /* min-width: 1366px; */
+  /* max-width: 1200px; */
 
   display: flex;
   flex-direction: column;
-  align-items: center;
+  max-width: 100vw;
   
   padding: 0px 120px 144px 120px;
 }
 
 .container div {
   display: flex;
+  /* display: grid;
+  grid-template-columns: 1fr; */
   flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+
 }
 
 #projects {
-  max-width: 1126px;
+  /* max-width: 1126px; */
+
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -28,8 +36,10 @@
   border-radius: 12px;
   padding: 12px;
   
-  width: 330px;
-  height: 280px;  
+  /* width: 330px; */
+  width: 20.625rem;
+  /* height: 280px;   */
+  min-height: 17rem;
 
   gap: 8px;
   text-decoration: none;
@@ -44,8 +54,10 @@
 
 
 .project-card img {
-  min-width: 306px;
-  min-height: 156px;
+  min-width: 17.5rem;
+  min-height: 9.75rem;
+  width: 100%;
+
   object-fit: cover;
   border-radius: 8px;
 }

@@ -6,15 +6,14 @@ header {
   justify-content: center;
   align-items: center;
 
-  min-width: 1366px;
+  max-width: 100vw;
   margin-top: 80px;
 
+  width: 100vw;
   padding: 0 163px 57px 163px;
 }
 
 .info {
-  max-width: 1040px;
-
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -28,18 +27,18 @@ header {
 }
 
 .avatar img {
-  width: 96px;
+  width: 6rem;
   aspect-ratio: 1/1;
 
   margin-bottom: 56px;
 }
 
 .bio {
-  width: 680px;
-
   display: flex;
   flex-direction: column;
   align-items: center;
+  
+  text-align: center;
 }
 
 #subtitle {
@@ -70,8 +69,13 @@ header {
   display: flex;
   gap: 16px;
 
+  align-items: center;
+  justify-content: center;
+
   margin-top: 60px;
   margin-bottom: 94px;
+
+  flex-wrap: wrap;
 }
 
 .tags p {
