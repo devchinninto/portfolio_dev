@@ -112,9 +112,15 @@ h1 {
   h2,
   .title,
   .text,
-  #service-container,
   #service-box .title,
   #service-box p {
     text-align: left;
+  }
+
+  .bio #title,
+  .bio #subtitle,
+  #service-container,
+  #contacts {
+    text-align: center;
   }
 }
