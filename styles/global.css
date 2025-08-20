@@ -5,12 +5,12 @@
 }
 
 :root {
-  --primary-text-base-grey-100: #E2E4E9;
-  --secondary-text-base-grey-200: #C0C4CE;
-  --base-grey-300: #878EA1;
-  --base-grey-400: #292C34;
-  --base-grey-500: #16181D;
-  --base-grey-600: #0D0E11;
+  --primary-text: #E2E4E9;
+  --secondary-text: #C0C4CE;
+  --grey-300: #878EA1;
+  --grey-400: #292C34;
+  --grey-500: #16181D;
+  --grey-600: #0D0E11;
   --red: #E3646E;
   --purple: #BB72E9;
   --blue: #3996DB;
@@ -23,7 +23,7 @@
   --title-lg: bold 3.5rem/120% var(--font-family-title);
   --title-md: bold 1.5rem/120% var(--font-family-title);
   --title-sm: bold 1rem/120% var(--font-family-title);
-  --subtitle: 400 20px/120% var(--font-family-subtitle);
+  --subtitle: 400 1.25rem/120% var(--font-family-subtitle);
   --text-md: 400 16px/140% var(--font-family-text);
   --text-sm: 400 14px/140% var(--font-family-text);
 
@@ -32,44 +32,23 @@
  --light-grey-grad: linear-gradient(90deg, #878ea186, var(--secondary-text-base-grey-200));
 }
 
-header, main, #service-container, #contacts {
-  max-width: 1200px;
-  width: 100vw;
-}
-
-body {
-  background-color: var(--base-grey-500);
-}
-
-
-h2 {
-  font: var(--subtitle);
-  color: var(--red);
-  margin-bottom: 8px;
-
-  text-align: center;
+p {
+  font: var(--text-sm);
+  color: var(--secondary-text);
 }
 
 h1 {
-  font: var(--title-md);
-  color: var(--primary-text-base-grey-100);
-
-  text-align: center;
-}
-
-.title {
   font: var(--title-sm);
-  color: var(--primary-text-base-grey-100);
-
-  margin-top: 20px;
-  margin-bottom: 8px;
-  padding-left: 8px;
+  color: var(--primary-text);
 }
 
-.text {
-  font: var(--text-sm);
-  color: var(--secondary-text-base-grey-200);
-  padding-left: 8px;
+h2 {
+  font: var(--subtitle);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
 }
 
 @media (max-width: 768px) {

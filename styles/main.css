@@ -57,10 +57,10 @@ main {
 }
 
 .project-card:hover {
-  border: 1.5px solid var(--base-gray-300, #878EA1);
+  border: 1.5px solid var(--grey-300, #878EA1);
   transform: translateY(-1px);
   filter: brightness(0.9);
-  box-shadow: 0 5px 1rem var(--base-grey-300);
+  box-shadow: 0 5px 1rem var(--grey-300);
 } 
 
 .gradient-box {
