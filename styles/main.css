@@ -1,7 +1,6 @@
 main {
   background-color: var(--grey-500);
   padding: 0 7.5rem 9rem 7.5rem;
-  width: 100vw;
 
   & .container {
     display: flex;

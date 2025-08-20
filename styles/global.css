@@ -50,3 +50,99 @@ img {
   max-width: 100%;
   height: auto;
 }
+
+@media (max-width: 768px) {
+    & header {
+    padding: 4rem 1rem 2rem 1rem;
+      overflow: hidden;
+  
+    & #info {
+      & h1 {
+        font-size: 2.5rem;
+        padding-block: .5rem 1rem;
+      }
+
+      & p {
+        padding-inline: 1rem;
+      }
+
+      & div > img {
+        width: 5rem;
+        margin-bottom: 2rem;
+      }
+    }
+
+    & #tags {
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-top: 2rem;
+      margin-bottom: 3rem;
+      gap: .75rem;
+
+      & p {
+        padding-inline: 1rem;
+        font-size: .875rem;
+      }
+    }
+
+    & .next {
+      width: 1rem;
+    }
+  }
+
+ & main {
+    padding: 0 1rem 4rem 1rem;
+
+    & #projects {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+
+      & .project-card {
+        width: auto;
+
+        & h1, p {
+          text-align: center;
+        }
+      }
+
+      & .title {
+        margin-top: .5rem;
+        font-size: .9rem;
+      }
+    }
+  }
+
+  & .services-container {
+    padding: 3rem 1rem 4rem 1rem;
+    text-align: center;
+
+    & > div {
+      flex-direction: column;
+      gap: 1rem;
+    }
+  }
+
+  & #contacts {
+    padding: 4rem 1rem 6rem 1rem;
+    text-align: center;
+
+    & h1 {
+      font-size: 1rem;
+    }
+
+    & p {
+      padding-inline: 1rem;
+    }
+
+    & > div {
+      width: 100%;
+      min-width: unset;
+    }
+
+    & .social-button {
+      padding: 1rem;
+      max-height: unset;
+    }
+  }
+}
