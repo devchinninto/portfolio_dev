@@ -6,98 +6,68 @@ header {
   justify-content: center;
   align-items: center;
 
-  max-width: 100vw;
-  margin-top: 80px;
+  padding: 7.5rem 10.187rem 3.56rem 10.187rem;
+  }
 
-  width: 100vw;
-  padding: 0 163px 57px 163px;
-}
+#info {
+  max-width: 42.5rem;
 
-.info {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-items: center;
-  padding: 120px 163px 57px 163px;
-}
-
-.avatar {
-  display: flex;
-  justify-content: center;
-}
-
-.avatar img {
-  width: 6rem;
-  aspect-ratio: 1/1;
-
-  margin-bottom: 56px;
-}
-
-.bio {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  
   text-align: center;
+
+
+  & h2 {
+  color: var(--secondary-text);
+  & span {
+    color: var(--red);
+  }
 }
 
-#subtitle {
-  font: var(--subtitle);
-  color: var(--secondary-text-base-grey-200);
+  & h1 {
+    font: var(--title-lg);
+    padding-block: 0.5rem 1.25rem;
+  }
+
+  & p {
+    color: var(--grey-300);
+  }
+
+  & div > img {
+    width: 6rem;
+    margin-bottom: 3rem;
+  }
 }
 
-#subtitle span {
-  background-image: var(--red-blue-grad);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
-#title {
-  font: var(--title-lg);
-  color: var(--primary-text-base-grey-100);
-}
-
-#text {
-  font: var(--text-sm);
-  color: var(--base-grey-300);
-
-  margin-top: 20px;
-}
-
-.tags {
+#tags {
   display: flex;
-  gap: 16px;
+  gap: 1rem;
 
-  align-items: center;
-  justify-content: center;
+  margin-top: 4.5rem;
+  margin-bottom: 5.875rem;
 
-  margin-top: 60px;
-  margin-bottom: 94px;
+  & p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--secondary-text);
+    font: var(--text-md);
 
-  flex-wrap: wrap;
-}
+    background-color: var(--grey-400);
+    border-radius: 62.43rem;
 
-.tags p {
-  display: flex;
-  background-color: var(--base-grey-400);
-  color: var(--secondary-text-base-grey-200);
-  border-radius: 999px;
-  font: var(--text-md);
+    padding-block: .5rem;
+    padding-inline:  1.5rem;
 
-  align-items: center;
+    gap: .25rem;
+  }
 
-  padding: 8px 16px;
-
-  gap: 8px;
-}
-
-.tags p img {
-  width: 24px;
-  height: 24px;
+  & img {
+    width: 1.5rem;
+  }
 }
 
 .next {
-  display: flex;
-  align-items: center;
+  width: 2rem;
 }
