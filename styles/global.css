@@ -24,12 +24,12 @@
   --title-md: bold 1.5rem/120% var(--font-family-title);
   --title-sm: bold 1rem/120% var(--font-family-title);
   --subtitle: 400 1.25rem/120% var(--font-family-subtitle);
-  --text-md: 400 16px/140% var(--font-family-text);
-  --text-sm: 400 14px/140% var(--font-family-text);
+  --text-md: 400 1rem/140% var(--font-family-text);
+  --text-sm: 400 0.875rem/140% var(--font-family-text);
 
  --red-blue-grad: linear-gradient(90deg, #E3646E, #3996DB);
 
- --light-grey-grad: linear-gradient(90deg, #878ea186, var(--secondary-text-base-grey-200));
+ --light-grey-grad: linear-gradient(90deg, #878ea186, var(--secondary-text));
 }
 
 p {
@@ -51,16 +51,37 @@ img {
   height: auto;
 }
 
-@media (max-width: 768px) {
-  :root {
-    --title-lg: bold 48px/120% var(--font-family-title);
-    --title-md: bold 22px/120% var(--font-family-title);
-    --subtitle: 400 18px/120% var(--font-family-subtitle);
-    --text-md: 400 14px/140% var(--font-family-text);
+@media (max-width: 1024px) {
+  header,
+  #contacts,
+  #service-container,
+  main,
+  .info {
+    padding-inline: 2.5rem;
   }
 
-  .container {
-    padding: 0 20px;
+  #projects, .services {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 768px) {
+  :root {
+    --title-lg: bold 2.5rem/120% var(--font-family-title);
+    --title-md: bold 1.25rem/120% var(--font-family-title);
+    --subtitle: 400 1rem/120% var(--font-family-subtitle);
+    --text-md: 400 0.875rem/140% var(--font-family-text);
+  }
+
+  header,
+  #contacts,
+  #service-container,
+  main {
+    padding: 2.5rem 1.25rem;
+  }
+
+  .info {
+    padding: 5rem 1.25rem 2.5rem 1.25rem;
   }
 
   #projects,
@@ -74,39 +95,13 @@ img {
   #service-box,
   .social-button {
     width: 100%;
-    height: auto; 
   }
 
-  header,
-  #service-container,
-  #contacts {
-    padding: 40px 20px;
-  }
-
-  .info {
-    padding: 80px 20px 40px 20px;
-  }
-
-  h1,
-  h2,
-  .title,
-  .text,
-  #service-box .title,
-  #service-box p {
-    text-align: left;
-  }
-
-  .bio #title,
-  .bio #subtitle,
-  #service-container h2,
-  #service-container h1,
-  #contacts,
-  #contacts h1,
-  #projects h1,
-  #projects h2,
-  .container h1 {
+  h1, h2, .title, .text, #contacts p {
     text-align: center;
-    align-items: center;
-    justify-content: center;
+  }
+
+  .bio {
+    text-align: center;
   }
 }
