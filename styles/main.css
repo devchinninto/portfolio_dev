@@ -34,7 +34,7 @@ main {
     border-radius: 0.75rem;
     padding: 0.75rem;
     text-decoration: none;
-    width: 19.125rem;
+    max-width: 19.125rem;
     height: 16rem;
 
     display: grid;

@@ -2,9 +2,11 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+
 }
 
 :root {
+  background-color: var(--grey-500);
   --primary-text: #E2E4E9;
   --secondary-text: #C0C4CE;
   --grey-300: #878EA1;
